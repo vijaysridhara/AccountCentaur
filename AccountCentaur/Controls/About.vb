@@ -39,7 +39,7 @@ Public Class About
         On Error Resume Next
         ViewLicenses.LicenseText = LZedG.Text
         ViewLicenses.ShowDialog()
-        Process.Start("http://zedgraph.org/wiki/index.php?title=ZedGraph_License")
+        Process.Start("https://www.gnu.org/licenses/old-licenses/lgpl-2.1.txt")
 
     End Sub
 
@@ -56,5 +56,7 @@ Public Class About
 
     End Sub
 
+    Private Sub LSQLITENEt_TextChanged(sender As Object, e As EventArgs) Handles LSQLITENEt.TextChanged
 
+    End Sub
 End Class
