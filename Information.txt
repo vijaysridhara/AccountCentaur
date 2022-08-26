@@ -1,7 +1,0 @@
-AccountCentaur - 1.4 Multi user fully functional
- 
-This is an agreement, besides EULA that no warranty, either stated or implied can be claimed if any damage to the data or the hardware or the individual using or misusing it. The Author of this program or any stakeholders of VitalLogic.Net cannot be held responsible for any kind of damage that occurs due to this software though it is intended for a productive work life.
-
-The Author, or Vitallogic.net or any other stakeholders cannot be held responsible for any damage due to use or misuse of software. 
-
-Report any bugs through the internal Feedback form

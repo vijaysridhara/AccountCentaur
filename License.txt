@@ -1,39 +1,54 @@
- EULA
 
 
-Please read the following terms and conditions carefully before using this SOFTWARE PRODUCT. Your use, distribution or installation of this copy of "ACCOUNTCENTAUR" indicates your acceptance of this License. SOFTWARE PRODUCT here means Software, image files, all accompanying files, data and materials received with your order of "ACCOUNTCENTAUR".
+Apache License
+Version 2.0, January 2004
+http://www.apache.org/licenses/
 
+TERMS AND CONDITIONS FOR USE, REPRODUCTION, AND DISTRIBUTION
 
-If you do not agree to any of the terms of this License, then do not install, distribute or use the SOFTWARE PRODUCT. 
+1. Definitions.
 
- 
+"License" shall mean the terms and conditions for use, reproduction, and distribution as defined by Sections 1 through 9 of this document.
 
-This SOFTWARE PRODUCT is for personal use only and may be installed and used by on only one computer. Its component parts may not be separated for use on more than one computer. SOFTWARE PRODUCT may be accessed through a network only after obtaining a site license. All components accompanying the software are copyrighted by their respective individuals or companies and may not be taken apart, modified, used or published with other software or means except with the SOFTWARE PRODUCT software and may not be distributed or copied in any manner unless the user reads their respective License agreements and copyrights
+"Licensor" shall mean the copyright owner or entity authorized by the copyright owner that is granting the License.
 
+"Legal Entity" shall mean the union of the acting entity and all other entities that control, are controlled by, or are under common control with that entity. For the purposes of this definition, "control" means (i) the power, direct or indirect, to cause the direction or management of such entity, whether by contract or otherwise, or (ii) ownership of fifty percent (50%) or more of the outstanding shares, or (iii) beneficial ownership of such entity.
 
-This SOFTWARE PRODUCT, all accompanying files, data and materials, are distributed "AS IS" and with no warranties of any kind, whether express or implied. The user must assume all risk of using the program. This disclaimer of warranty constitutes an essential part of the agreement.
+"You" (or "Your") shall mean an individual or Legal Entity exercising permissions granted by this License.
 
+"Source" form shall mean the preferred form for making modifications, including but not limited to software source code, documentation source, and configuration files.
 
-Any liability of VITALLOGIC will be limited exclusively to refund of purchase price. In addition, in no event shall VITALLOGIC, or its principals, shareholders, officers, employees, affiliates, contractors, subsidiaries, or parent organizations, be liable for any incidental, consequential, punitive or any other damages whatsoever relating to the use of SOFTWARE PRODUCT.
+"Object" form shall mean any form resulting from mechanical transformation or translation of a Source form, including but not limited to compiled object code, generated documentation, and conversions to other media types.
 
+"Work" shall mean the work of authorship, whether in Source or Object form, made available under the License, as indicated by a copyright notice that is included in or attached to the work (an example is provided in the Appendix below).
 
-In addition, in no event does VITALLOGIC authorize you to use this SOFTWARE PRODUCT in applications or systems where SOFTWARE PRODUCT's failure to perform can reasonably be expected to result in a physical injury, or in loss of life. Any such use by you is entirely at your own risk, and you agree to hold VITALLOGIC harmless from any claims or losses relating to such unauthorized use.
+"Derivative Works" shall mean any work, whether in Source or Object form, that is based on (or derived from) the Work and for which the editorial revisions, annotations, elaborations, or other modifications represent, as a whole, an original work of authorship. For the purposes of this License, Derivative Works shall not include works that remain separable from, or merely link (or bind by name) to the interfaces of, the Work and Derivative Works thereof.
 
+"Contribution" shall mean any work of authorship, including the original version of the Work and any modifications or additions to that Work or Derivative Works thereof, that is intentionally submitted to Licensor for inclusion in the Work by the copyright owner or by an individual or Legal Entity authorized to submit on behalf of the copyright owner. For the purposes of this definition, "submitted" means any form of electronic, verbal, or written communication sent to the Licensor or its representatives, including but not limited to communication on electronic mailing lists, source code control systems, and issue tracking systems that are managed by, or on behalf of, the Licensor for the purpose of discussing and improving the Work, but excluding communication that is conspicuously marked or otherwise designated in writing by the copyright owner as "Not a Contribution."
 
-This Agreement constitutes the entire statement of the Agreement between the parties on the subject matter, and merges and supersedes all other or prior understandings, purchase orders, agreements and arrangements. This Agreement shall be governed by the laws of INDIA OR STATE.
+"Contributor" shall mean Licensor and any individual or Legal Entity on behalf of whom a Contribution has been received by Licensor and subsequently incorporated within the Work.
 
+2. Grant of Copyright License. Subject to the terms and conditions of this License, each Contributor hereby grants to You a perpetual, worldwide, non-exclusive, no-charge, royalty-free, irrevocable copyright license to reproduce, prepare Derivative Works of, publicly display, publicly perform, sublicense, and distribute the Work and such Derivative Works in Source or Object form.
 
-VITALLOGIC the owner of the copyright of this SOFTWARE PRODUCT, all of its derivatives, title and accompanying materials are the exclusive property of the respective companies or individuals as stated in the "About" of the application. All rights of any kind, which are not expressly granted in this License, are entirely and exclusively reserved to and by VITALLOGIC. You may not rent, lease, transfer, modify, translate, reverse engineer, de-compile, disassemble or create derivative works based on this SOFTWARE PRODUCT. You may not make access to SOFTWARE PRODUCT available to others in connection with a service bureau, application service provider, or similar business, or use this SOFTWARE PRODUCT in a business to provide file compression, decompression, or conversion services to others. There are no third party beneficiaries of any promises, obligations or representations made by VITALLOGIC herein.
+3. Grant of Patent License. Subject to the terms and conditions of this License, each Contributor hereby grants to You a perpetual, worldwide, non-exclusive, no-charge, royalty-free, irrevocable (except as stated in this section) patent license to make, have made, use, offer to sell, sell, import, and otherwise transfer the Work, where such license applies only to those patent claims licensable by such Contributor that are necessarily infringed by their Contribution(s) alone or by combination of their Contribution(s) with the Work to which such Contribution(s) was submitted. If You institute patent litigation against any entity (including a cross-claim or counterclaim in a lawsuit) alleging that the Work or a Contribution incorporated within the Work constitutes direct or contributory patent infringement, then any patent licenses granted to You under this License for that Work shall terminate as of the date such litigation is filed.
 
+4. Redistribution. You may reproduce and distribute copies of the Work or Derivative Works thereof in any medium, with or without modifications, and in Source or Object form, provided that You meet the following conditions:
 
-You may not disclose to other persons the data or techniques relating to this SOFTWARE PRODUCT that you know or should know that it is a trade secret of the VITALLOGIC in any manner that will cause damage to VITALLOGIC.
+    You must give any other recipients of the Work or Derivative Works a copy of this License; and
+    You must cause any modified files to carry prominent notices stating that You changed the files; and
+    You must retain, in the Source form of any Derivative Works that You distribute, all copyright, patent, trademark, and attribution notices from the Source form of the Work, excluding those notices that do not pertain to any part of the Derivative Works; and
+    If the Work includes a "NOTICE" text file as part of its distribution, then any Derivative Works that You distribute must include a readable copy of the attribution notices contained within such NOTICE file, excluding those notices that do not pertain to any part of the Derivative Works, in at least one of the following places: within a NOTICE text file distributed as part of the Derivative Works; within the Source form or documentation, if provided along with the Derivative Works; or, within a display generated by the Derivative Works, if and wherever such third-party notices normally appear. The contents of the NOTICE file are for informational purposes only and do not modify the License. You may add Your own attribution notices within Derivative Works that You distribute, alongside or as an addendum to the NOTICE text from the Work, provided that such additional attribution notices cannot be construed as modifying the License.
 
+    You may add Your own copyright statement to Your modifications and may provide additional or different license terms and conditions for use, reproduction, or distribution of Your modifications, or for any such Derivative Works as a whole, provided Your use, reproduction, and distribution of the Work otherwise complies with the conditions stated in this License.
 
-This SOFTWARE PRODUCT and all services provided may be used for lawful purposes only. Transmission, storage, or presentation of any information, data or material in violation of any Country, State or City law is strictly prohibited. This includes, but is not limited to: copyrighted material, material we judge to be threatening or obscene, or material protected by trade secret and other statute. You agree to indemnify and hold VITALLOGIC harmless from any claims resulting from the use of this SOFTWARE PRODUCT, which may damage any other party.
+5. Submission of Contributions. Unless You explicitly state otherwise, any Contribution intentionally submitted for inclusion in the Work by You to the Licensor shall be under the terms and conditions of this License, without any additional terms or conditions. Notwithstanding the above, nothing herein shall supersede or modify the terms of any separate license agreement you may have executed with Licensor regarding such Contributions.
 
+6. Trademarks. This License does not grant permission to use the trade names, trademarks, service marks, or product names of the Licensor, except as required for reasonable and customary use in describing the origin of the Work and reproducing the content of the NOTICE file.
 
+7. Disclaimer of Warranty. Unless required by applicable law or agreed to in writing, Licensor provides the Work (and each Contributor provides its Contributions) on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied, including, without limitation, any warranties or conditions of TITLE, NON-INFRINGEMENT, MERCHANTABILITY, or FITNESS FOR A PARTICULAR PURPOSE. You are solely responsible for determining the appropriateness of using or redistributing the Work and assume any risks associated with Your exercise of permissions under this License.
 
+8. Limitation of Liability. In no event and under no legal theory, whether in tort (including negligence), contract, or otherwise, unless required by applicable law (such as deliberate and grossly negligent acts) or agreed to in writing, shall any Contributor be liable to You for damages, including any direct, indirect, special, incidental, or consequential damages of any character arising as a result of this License or out of the use or inability to use the Work (including but not limited to damages for loss of goodwill, work stoppage, computer failure or malfunction, or any and all other commercial damages or losses), even if such Contributor has been advised of the possibility of such damages.
 
-Vijay Sridhara
-VitalLogic.net
-  
+9. Accepting Warranty or Additional Liability. While redistributing the Work or Derivative Works thereof, You may choose to offer, and charge a fee for, acceptance of support, warranty, indemnity, or other liability obligations and/or rights consistent with this License. However, in accepting such obligations, You may act only on Your own behalf and on Your sole responsibility, not on behalf of any other Contributor, and only if You agree to indemnify, defend, and hold each Contributor harmless for any liability incurred by, or claims asserted against, such Contributor by reason of your accepting any such warranty or additional liability.
+
+END OF TERMS AND CONDITIONS

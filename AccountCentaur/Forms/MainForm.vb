@@ -57,7 +57,7 @@ Friend Class MainForm
     Private Sub MainForm_KeyDown(ByVal sender As Object, ByVal e As System.Windows.Forms.KeyEventArgs) Handles Me.KeyDown
         Try
             If e.KeyCode = Keys.F1 Then
-                Process.Start(IO.Path.GetDirectoryName(Application.ExecutablePath) & "\AccountCentaur.chm")
+                Shell("hh.exe " & IO.Path.GetDirectoryName(Application.ExecutablePath) & "\AccountCentaur.chm", AppWinStyle.NormalFocus)
             ElseIf e.KeyCode = Keys.F2 Then
                 Dim an As New AddNote
                 an.ShowDialog()
@@ -248,8 +248,8 @@ Friend Class MainForm
 
     Private Sub butHelp_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles butHelp.Click
         Try
-            Process.Start(IO.Path.GetDirectoryName(Application.ExecutablePath) & "\AccountCentaur.chm")
-
+            Dim filename As String = IO.Path.GetDirectoryName(Application.ExecutablePath) & "\AccountCentaur.chm"
+            Shell("hh.exe " & filename, AppWinStyle.NormalFocus)
         Catch ex As Exception
             DE(ex)
         End Try
@@ -289,7 +289,7 @@ Friend Class MainForm
                 .Dock = DockStyle.Fill
                 .RefreshContents()
             End With
-            lblTitle.Text = "Savings and Investment details"
+            lblTitle.Text = "Savings And Investment details"
             About1.Visible = False
             Users1.Visible = False
             Expenses1.Visible = False
