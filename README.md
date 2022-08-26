@@ -21,3 +21,7 @@ When you attempt to build project, it would fail on two additional components. R
 [Download Additional components here](https://app.box.com/s/pkk0r1nyylb6albi13x4z9pqfqws6zbs)
 1. VJEncryption.dll
 2. YearMonth.dll
+
+
+## Binaries
+[Download AccountCentaur 1.0.6 from here](https://vijaysridhara.gumroad.com/l/ac)
