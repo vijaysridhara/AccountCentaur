@@ -1,0 +1,28 @@
+.graybox {
+	border: solid 1px gray;
+}
+
+#graybox {
+	border: solid 1px gray;
+}
+
+.rateText {  
+    font-family: Arial, Helvetica, sans-serif; font-size: 0.8em; color: #333399; text-align: center;
+}
+
+#smlink {
+	font-size: .6em;
+	color: #dedede;
+	font-style: normal;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+#smlink a:link,#smlink a:visited{
+color: #7e7e7e; /*Was #dedede.*/
+text-decoration: none; }
+
+#smlink a:hover {
+color: #7e7e7e; 
+text-decoration: underline}
+
+

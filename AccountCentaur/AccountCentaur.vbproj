@@ -1,0 +1,234 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>VijaySridhara.Applications.LoginForm</StartupObject>
+    <MyType>WindowsForms</MyType>
+    <ApplicationIcon>Resources\acc.ico</ApplicationIcon>
+    <TargetZone>LocalIntranet</TargetZone>
+    <GenerateManifests>false</GenerateManifests>
+    <DelaySign>False</DelaySign>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+    <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
+    <UseWindowsForms>true</UseWindowsForms>
+    <ImportWindowsDesktopTargets>true</ImportWindowsDesktopTargets>
+    <DocumentationFile>AccountCentaur.xml</DocumentationFile>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DocumentationFile>AccountCentaur.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022,42353,42354,42355</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DefineDebug>false</DefineDebug>
+    <DocumentationFile>AccountCentaur.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022,42353,42354,42355</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationManifest>My Project\app.manifest</ApplicationManifest>
+    <RootNamespace>VijaySridhara.Applications</RootNamespace>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x64'">
+    <OutputPath>bin\x64\Debug\</OutputPath>
+    <DocumentationFile>AccountCentaur.xml</DocumentationFile>
+    <Optimize>true</Optimize>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022,42353,42354,42355</NoWarn>
+    <DebugType>None</DebugType>
+    <CodeAnalysisIgnoreBuiltInRules>false</CodeAnalysisIgnoreBuiltInRules>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x64'">
+    <OutputPath>bin\x64\Release\</OutputPath>
+    <DocumentationFile>AccountCentaur.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022,42353,42354,42355</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+    <None Remove="Thumbs.db" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="System.Data.SQLite">
+      <HintPath>..\..\..\4.0Converted\Pournami\Pournami\bin\Debug\System.Data.SQLite.dll</HintPath>
+    </Reference>
+    <Reference Include="VJEncryptor, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\VJEncryptor.dll</HintPath>
+    </Reference>
+    <Reference Include="YearMonth">
+      <HintPath>bin\Debug\YearMonth.dll</HintPath>
+    </Reference>
+    <Reference Include="ZedGraph, Version=5.0.10.8624, Culture=neutral, PublicKeyToken=02a83cbd123fcd60, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\ZedGraph.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="System.Drawing" />
+    <Import Include="System.Windows.Forms" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Update="Forms\CalForm.Designer.vb">
+      <DependentUpon>CalForm.vb</DependentUpon>
+    </Compile>
+    <Compile Update="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Update="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Update="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Update="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Update="Controls\About.Designer.vb">
+      <DependentUpon>About.vb</DependentUpon>
+    </Compile>
+    <Compile Update="Controls\About.vb" />
+    <Compile Update="Forms\AddNote.Designer.vb">
+      <DependentUpon>AddNote.vb</DependentUpon>
+    </Compile>
+    <Compile Update="Forms\ChangePassword.Designer.vb">
+      <DependentUpon>ChangePassword.vb</DependentUpon>
+    </Compile>
+    <Compile Update="Forms\CurrencyConverter.Designer.vb">
+      <DependentUpon>CurrencyConverter.vb</DependentUpon>
+    </Compile>
+    <Compile Update="Controls\EntryPanel.Designer.vb">
+      <DependentUpon>EntryPanel.vb</DependentUpon>
+    </Compile>
+    <Compile Update="Controls\EntryPanel.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="Controls\Expenses.Designer.vb">
+      <DependentUpon>Expenses.vb</DependentUpon>
+    </Compile>
+    <Compile Update="Controls\Expenses.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="Controls\Graph.Designer.vb">
+      <DependentUpon>Graph.vb</DependentUpon>
+    </Compile>
+    <Compile Update="Controls\Graph.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="Controls\Income.Designer.vb">
+      <DependentUpon>Income.vb</DependentUpon>
+    </Compile>
+    <Compile Update="Controls\Income.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="Forms\LoginForm.Designer.vb">
+      <DependentUpon>LoginForm.vb</DependentUpon>
+    </Compile>
+    <Compile Update="Forms\MultiEntry.Designer.vb">
+      <DependentUpon>MultiEntry.vb</DependentUpon>
+    </Compile>
+    <Compile Update="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Update="Controls\Notes.Designer.vb">
+      <DependentUpon>Notes.vb</DependentUpon>
+    </Compile>
+    <Compile Update="Controls\Notes.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="Forms\Reminders.Designer.vb">
+      <DependentUpon>Reminders.vb</DependentUpon>
+    </Compile>
+    <Compile Update="Controls\Savings.Designer.vb">
+      <DependentUpon>Savings.vb</DependentUpon>
+    </Compile>
+    <Compile Update="Controls\Savings.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="Forms\SimpleNewEntry.Designer.vb">
+      <DependentUpon>SimpleNewEntry.vb</DependentUpon>
+    </Compile>
+    <Compile Update="Controls\Transactions.Designer.vb">
+      <DependentUpon>Transactions.vb</DependentUpon>
+    </Compile>
+    <Compile Update="Controls\Transactions.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="Controls\TwinCombo.designer.vb">
+      <DependentUpon>TwinCombo.vb</DependentUpon>
+    </Compile>
+    <Compile Update="Controls\TwinCombo.vb" />
+    <Compile Update="Controls\TwinText.designer.vb">
+      <DependentUpon>TwinText.vb</DependentUpon>
+    </Compile>
+    <Compile Update="Controls\TwinText.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="Controls\Users.Designer.vb">
+      <DependentUpon>Users.vb</DependentUpon>
+    </Compile>
+    <Compile Update="Controls\Users.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="Forms\ViewLicenses.Designer.vb">
+      <DependentUpon>ViewLicenses.vb</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <BaseApplicationManifest Include="My Project\app.manifest" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.0,Profile=Client">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4 Client Profile %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="System.Data.SQLite.Core" Version="1.0.116" />
+    <PackageReference Include="ZedGraph" Version="5.1.7" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Update="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+</Project>
